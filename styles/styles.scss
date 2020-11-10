@@ -1,0 +1,157 @@
+/* Master style */
+
+@mixin centerVertical {   /* Mixin för att centrera bilder verticallt */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* Nav styles*/
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+
+  .left-side {
+    display: flex;
+
+    div {
+      margin-right: 20px;
+      font-size: 0.9em;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+
+  a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+
+  :hover {
+    border-bottom: 1px solid #3d93d9;
+  }
+
+  a:hover {
+    color: #3d93d9;
+  }
+}
+
+.active-nav-link a {
+  border-bottom: 1px solid #3d93d9;
+  color: #3d93d9;
+}
+
+.navbar-pictures {
+  @include centerVertical();
+  margin-top: -75px;
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Portfolio style */
+
+.portfolio-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+  position: relative;
+}
+
+.portfolio-img-background {
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.portfolio-content {
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+
+  a {
+    color: #3d93d9;
+    text-decoration: none;
+  }
+}
+
+/* about styles */
+
+.about-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+}
+
+/* contact styles */
+
+.contact-picture img {
+  @include centerVertical();
+  width: 60%;
+}
+
+.contact-info {
+  text-align: center;
+  a {
+    color: #3d93d9;
+    text-decoration: none;
+  }
+}
+
+/* media queries */
+
+@media only screen and (max-width: 900px) {  
+  .portfolio-items-wrapper {                    /* Portfolio */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .portfolio-items-wrapper {                    /* Portfolio */
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .navbar-pictures {                            /* Nav */
+    position: relative;
+    left: 30%;
+  }
+  .right-side {                                 /* Nav */
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar-pictures {                            /* Nav */
+    @include centerVertical();
+    margin-top: 0px;
+    display: flex;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+}

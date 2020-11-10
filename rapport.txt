@@ -1,0 +1,19 @@
+Scrum: 
+Scrum är ett vanligt arbetssätt inom systemutveckling där man jobbar i sprinter. 
+Innan varje sprint har men en sprint planning där man planerar sprinten och gör en produkt backlog som teamet åtar sig att göra under sprinten.  
+Utvecklare och kunder jobbar nära varandra med täta dialoger för att upprätthålla effektivitet. 
+Utvecklingsteamet träffas varje dag i en daily scrum för en kort statusrapport.
+I slutet av varje sprint gör teamet en sprint review över vad som har funkar bra eller inte, detta görs för att förbättra teamets arbetssätt.
+
+Grafisk profil:
+En grafisk profil är ett dokument som beskriver regler för hur designen ska implementeras, 
+det kan t.ex vara vilka färger och vilken font som ska användas men även hur logotypen ska användas. 
+
+Tillgänglighet:
+hur väl en webbplats fungerar för personer med funktionsnedsättning, 
+t.ex hur väl underlättar vi för någon synskadad eller för någon med lässvårigheter.   
+
+Implementerade tillgänglighetskrav: 
+1. anger sidan språk genom lang attribut
+2. har en logisk tab ordning genom tabindex
+
