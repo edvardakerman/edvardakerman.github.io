@@ -4,16 +4,26 @@ Innan varje sprint har men en sprint planning där man planerar sprinten och gö
 Utvecklare och kunder jobbar nära varandra med täta dialoger för att upprätthålla effektivitet. 
 Utvecklingsteamet träffas varje dag i en daily scrum för en kort statusrapport.
 I slutet av varje sprint gör teamet en sprint review över vad som har funkar bra eller inte, detta görs för att förbättra teamets arbetssätt.
+Fördelen med scrum ur ett utvecklarperspektiv är att det underlättar samarbete i teamet och att man håller koll på vad de andra i teamet gör. 
+Man kan enkelt hjälpa varandra att få undan hinder som uppstår.
+Nackdelarna är att du jobbar mot kortsiktiga mål vilket kan försvåra för det långsiktiga huvudmålet. 
+Att man gör lösningar för de kortsiktiga som inte funkar lika bra för huvudmålet.
+Ur ett företagsperspektiv är scrum bra för att du kan komma med ändringar under själva projektet utan att det ska fördröja processen särskilt mycket. 
+Samtidigt kan det också vara en nackdel då PO blir mer lockad till att lägga till mer ändringar under projektet vilket kan leda till scope creep vilket innebär att projektet börjar spårar iväg.
 
 Grafisk profil:
 En grafisk profil är ett dokument som beskriver regler för hur designen ska implementeras, 
 det kan t.ex vara vilka färger och vilken font som ska användas men även hur logotypen ska användas. 
+Fördelar med grafisk profil för både utvecklare och kunden är att det är tydligt, vilka färger, typsnitt och hur logan ska användas beskrivs vilket underlättar för båda parter. 
+Samtidigt kan det kosta pengar för kunden att ta fram en grafisk profil, pengar som kunde ha lagts på utvecklingen av hemsidan istället. 
 
 Tillgänglighet:
 hur väl en webbplats fungerar för personer med funktionsnedsättning, 
 t.ex hur väl underlättar vi för någon synskadad eller för någon med lässvårigheter.   
+Fördelen med tillgänglighet ur ett användarperspektiv och företagsperspektiv är att det kan ökar användandet av hemsidan genom att flera faktiskt kan använda den på ett produktivt sätt. 
+Samtidigt är det en nackdel då det kan minska användandet för att tillgänglighetskraven tvingar bort vissa features som lockar användare. 
+Från ett utvecklarperspektiv kommer det med största sannolikhet att leda till mer arbete för att implementera dessa krav.
 
 Implementerade tillgänglighetskrav: 
-1. anger sidan språk genom lang attribut
+1. anger sidans språk genom lang attribut
 2. har en logisk tab ordning genom tabindex
-

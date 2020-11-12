@@ -90,14 +90,14 @@ body {
   background-repeat: no-repeat;
 }
 
-.portfolio-content {
+.portfolio-info {
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 85%;
   text-align: center;
 }
 
-.portfolio-content a {
+.portfolio-info a {
   color: #3d93d9;
   text-decoration: none;
 }

@@ -1,6 +1,7 @@
 /* Master style */
 
-@mixin centerVertical {   /* Mixin för att centrera bilder verticallt */
+@mixin centerVertical {
+  /* Mixin för att centrera bilder verticallt */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -81,10 +82,10 @@ body {
   background-repeat: no-repeat;
 }
 
-.portfolio-content {
+.portfolio-info {
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 85%;
   text-align: center;
 
   a {
@@ -119,29 +120,34 @@ body {
 
 /* media queries */
 
-@media only screen and (max-width: 900px) {  
-  .portfolio-items-wrapper {                    /* Portfolio */
+@media only screen and (max-width: 900px) {
+  .portfolio-items-wrapper {
+    /* Portfolio */
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .portfolio-items-wrapper {                    /* Portfolio */
+  .portfolio-items-wrapper {
+    /* Portfolio */
     display: grid;
     grid-template-columns: 1fr;
   }
-  .navbar-pictures {                            /* Nav */
+  .navbar-pictures {
+    /* Nav */
     position: relative;
     left: 30%;
   }
-  .right-side {                                 /* Nav */
+  .right-side {
+    /* Nav */
     display: none;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  .navbar-pictures {                            /* Nav */
+  .navbar-pictures {
+    /* Nav */
     @include centerVertical();
     margin-top: 0px;
     display: flex;
