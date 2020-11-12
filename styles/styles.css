@@ -5,13 +5,6 @@ body {
   margin: 0px;
 }
 
-.container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-}
-
 /* Nav styles*/
 .nav-wrapper {
   display: -webkit-box;
@@ -98,7 +91,6 @@ body {
 }
 
 .portfolio-content {
-  margin-top: -20px;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
@@ -139,6 +131,7 @@ body {
 /* media queries */
 @media only screen and (max-width: 900px) {
   .portfolio-items-wrapper {
+    /* Portfolio */
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
@@ -148,22 +141,26 @@ body {
 
 @media only screen and (max-width: 600px) {
   .portfolio-items-wrapper {
+    /* Portfolio */
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
   .navbar-pictures {
+    /* Nav */
     position: relative;
     left: 30%;
   }
   .right-side {
+    /* Nav */
     display: none;
   }
 }
 
 @media only screen and (max-width: 400px) {
   .navbar-pictures {
+    /* Nav */
     /* Mixin för att centrera bilder verticallt */
     display: block;
     margin-left: auto;
